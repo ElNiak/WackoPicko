@@ -32,17 +32,20 @@ if ($bad_login)
 
    ?>
 
-<div class="column prepend-1 span-23 first last">
-    <h2>Login</h2>
-    <?php error_message(); ?>
-    <table style="width:320px" cellspacing="0">
-      <form action="<?=h( $_SERVER['PHP_SELF'] )?>" method="POST">
-      <tr><td>Username :</td><td> <input type="text" name="username" /></td></tr>
-      <tr><td>Password :</td><td> <input type="password" name="password" /></td></tr>
-      <tr><td><input type="submit" class="btn btn-default"value="login" /></td><td> <a href="/users/register.php">Register</a></td></tr>
-   </form>
- </table>
-</div>
+<form action="<?=h( $_SERVER['PHP_SELF'] )?>" method="POST">
+<?php error_message(); ?>
+<h2>Login</h2>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Username</label>
+    <input type="text" name="username" class="form-control" id="exampleInputEmail1"  placeholder="Enter username">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password">
+  </div>
+  <input value="login" class="btn btn-default" type="submit" class="btn btn-primary"><br><a class="nav-link"  href="/users/register.php">Register</a></input>
+</form>
+
    <?php
 
        our_footer();

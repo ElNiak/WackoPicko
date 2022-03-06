@@ -47,11 +47,15 @@ $guestbook = Guestbook::get_all_guestbooks();
 
 
 <form action="<?=h( Guestbook::$GUESTBOOK_URL )?>" method="POST">
-   Name: <br>
-   <input type="text" name="name" /><br>
-   Comment: <br>
-   <textarea id="comment-box" name="comment"></textarea> <br>
-   <input type="submit" class="btn btn-default"value="Submit" />
+   <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" class="form-control"  placeholder="Enter name">
+  </div>
+  <div class="form-group">
+    <label for="comment-box">Comment</label><br>
+    <textarea id="comment-box" name="comment"></textarea> <br>
+  </div>
+   <input type="submit" class="btn btn-primary"value="Submit" />
 </form>
 
 
