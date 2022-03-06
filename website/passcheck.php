@@ -36,7 +36,7 @@ Password
 <form action="<?=h( $_SERVER['PHP_SELF'] )?>" method="POST">
    Password to check: <br>
    <input type="password" name="password" /><br>
-   <input type="submit" value="Check!" />
+   <input type="submit" class="btn btn-default"value="Check!" />
 </form>
 
 

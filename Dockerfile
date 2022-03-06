@@ -1,5 +1,5 @@
 FROM tutum/lamp
-MAINTAINER Adam Doupe <adamdoupe@gmail.com>
+MAINTAINER Christophe Crochet <christohe.crochet@uclouvain.be>
 
 RUN apt-get update && apt-get install -y libgd-dev php5-gd
 RUN rm -fr /app

@@ -52,7 +52,7 @@ Protect yourself from hackers and <a href="/passcheck.php">check your password s
   <tr><td>Last Name :</td><td> <input type="text" name="lastname" /></td></tr>
   <tr><td>Password :</td><td> <input type="password" name="password" /></td></tr>
   <tr><td>Password again :</td><td> <input type="password" name="againpass" /></td></tr>
-  <tr><td><input type="submit" value="Create Account!" /></td><td></td></tr>
+  <tr><td><input type="submit" class="btn btn-default"value="Create Account!" /></td><td></td></tr>
 </form>
 </table>
 </div>

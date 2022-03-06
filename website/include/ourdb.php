@@ -1,8 +1,8 @@
 <?php
 
-$username = "wackopicko";
+$username = "benoitlove";
 $pass = "webvuln!@#";
-$database = "wackopicko";
+$database = "benoitlove";
 
 require_once("database.php");
 $db = new DB("localhost", $username, $pass, $database);

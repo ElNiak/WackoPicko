@@ -87,7 +87,7 @@ if (!$file_uploaded)
        <tr><td>Title :</td><td> <input type="text" name="title" /></td></tr>
        <tr><td>Price :</td><td>  <input type="text" name="price" /></td></tr>
        <tr><td>File :</td><td>  <input type="file" name="pic" /></td></tr>
-       <tr><td><input type="submit" value="Upload File" /></td><td></td></tr>       
+       <tr><td><input type="submit" class="btn btn-default"value="Upload File" /></td><td></td></tr>       
 </form>
 </table>
 

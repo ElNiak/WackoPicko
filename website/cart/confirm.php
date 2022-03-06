@@ -42,7 +42,7 @@ our_header("cart");
 <p>Total : <b><?= $total ?> Tradebux</b></p>
 
    <?php if ($has_enough) { ?>
-<input type="submit" value="Purchase" />
+<input type="submit" class="btn btn-default"value="Purchase" />
 			    <?php }
 else { ?>
 

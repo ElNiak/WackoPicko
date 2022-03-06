@@ -70,12 +70,12 @@ if ($error)
     <form action="<?= Comments::$DELETE_PREVIEW_COMMENT_URL ?>" method="POST" style="display:inline">
     <input type="hidden" name="previewid" value="<?= h( $previewid ) ?>" />
     <input type="hidden" name="picid" value="<?= h( $_POST['picid'] ) ?>" />
-    <input type="submit" value="Cancel" />      
+    <input type="submit" class="btn btn-default"value="Cancel" />      
     </form>
     <form action="<?= Comments::$ADD_COMMENT_URL; ?>" method="POST"style="display:inline">
     <input type="hidden" name="previewid" value="<?= h( $previewid ) ?>" />
     <input type="hidden" name="picid" value="<?= h( $_POST['picid'] ) ?>" />
-    <input type="submit" value="Create" />
+    <input type="submit" class="btn btn-default"value="Create" />
   </form>
   </div>
 </div>

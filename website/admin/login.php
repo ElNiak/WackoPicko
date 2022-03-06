@@ -26,7 +26,7 @@ if ($bad_login)
   <form action="<?= Admins::$LOGIN_URL ?>" method="POST">
        Username : <input type="text" name="adminname" /><br>
        Password : <input type="password" name="password" /><br>
-       <input type="submit" value="submit" />
+       <input type="submit" class="btn btn-default"value="submit" />
    </form>
 <?php
       }

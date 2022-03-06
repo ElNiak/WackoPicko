@@ -47,11 +47,11 @@ our_header("cart");
     <?php } ?>
   </table>
   <?php } ?>
-  <input type="submit" value="Remove From Cart" />
+  <input type="submit" class="btn btn-default"value="Remove From Cart" />
 </form>
 <form action="<?=h( Cart::$ACTION_URL . '?action=addcoupon' ) ?>" method="POST">
 Enter Coupon Code: <input type="text" name="couponcode" /><br />
-<input type="submit" value="Submit Coupon" />
+<input type="submit" class="btn btn-default"value="Submit Coupon" />
 </form>
 
 <a href="<?=h( Cart::$CONFIRM_URL );?>">Continue to Confirmation</a>

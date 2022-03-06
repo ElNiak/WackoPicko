@@ -75,7 +75,7 @@ else
 	      <textarea id="comment-box" name="text"></textarea>
 	      <div class="column prepend-9 first last">
 		<input type="hidden" name="picid" value="<?=h( $pic['id'] )?>"/>
-		<input type="submit" value="Preview"/>
+		<input type="submit" class="btn btn-default"value="Preview"/>
 
 	      </div>
 	    </form>

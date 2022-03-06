@@ -51,7 +51,7 @@ $guestbook = Guestbook::get_all_guestbooks();
    <input type="text" name="name" /><br>
    Comment: <br>
    <textarea id="comment-box" name="comment"></textarea> <br>
-   <input type="submit" value="Submit" />
+   <input type="submit" class="btn btn-default"value="Submit" />
 </form>
 
 

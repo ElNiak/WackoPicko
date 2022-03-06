@@ -35,7 +35,7 @@ our_header();
 <form action="<?=h( $_SERVER['PHP_SELF'] )?>?conflictid=<?= $conflict['id'] ?>" method="POST">
  <img src="conflictview.php?conflictid=<?=h( $conflict['id'] ) ?>&first" /> <input type="radio" value="first" name="choice[]" /><br>
  <img src="conflictview.php?conflictid=<?=h( $conflict['id'] ) ?>&second" /> <input type="radio" value="second" name="choice[]" /><br> 
-  <input type="submit" value="Choose Conflict" /><br>
+  <input type="submit" class="btn btn-default"value="Choose Conflict" /><br>
 </form>
 </div>
 
