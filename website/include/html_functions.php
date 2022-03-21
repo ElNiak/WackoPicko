@@ -21,7 +21,7 @@ function our_header($selected = "", $search_terms = "")
     <title>VeryNonExploitableWebSite.com</title>
   </head>
   <body>
-    <div class="container " style="border: 2px solid #5c95cf;">
+    <div class="container ">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <a id="title" class="navbar-brand" href="/">VeryNonExploitableWebSite.com</a></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

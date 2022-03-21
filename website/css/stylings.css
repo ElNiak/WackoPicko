@@ -21,7 +21,7 @@ a
 #comment-box
 {
     height: 10em;
-    width: 39em;
+    width: 100%;
 }
 
 .thumbnail-pic-list
@@ -40,9 +40,10 @@ a
 
 #footer
 {
-    margin-top: 2em;
-    margin-bottom: 1em;
-    text-align:center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
 }
 
 #footer ul
